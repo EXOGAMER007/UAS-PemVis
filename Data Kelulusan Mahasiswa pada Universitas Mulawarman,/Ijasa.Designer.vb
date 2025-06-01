@@ -22,6 +22,7 @@ Partial Class Ijasa
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ijasa))
         DataGridView1 = New DataGridView()
         Panel1 = New Panel()
         CetanBTN = New Button()
@@ -39,6 +40,8 @@ Partial Class Ijasa
         Label5 = New Label()
         Label3 = New Label()
         Label4 = New Label()
+        PrintDocument1 = New Printing.PrintDocument()
+        PrintPreviewDialog1 = New PrintPreviewDialog()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -124,7 +127,6 @@ Partial Class Ijasa
         LabelIPK.Name = "LabelIPK"
         LabelIPK.Size = New Size(247, 55)
         LabelIPK.TabIndex = 11
-        LabelIPK.Text = "IPK"
         LabelIPK.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' LabelPredikat
@@ -136,7 +138,6 @@ Partial Class Ijasa
         LabelPredikat.Name = "LabelPredikat"
         LabelPredikat.Size = New Size(247, 54)
         LabelPredikat.TabIndex = 10
-        LabelPredikat.Text = "Predikat"
         LabelPredikat.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' LabelStudi
@@ -148,7 +149,6 @@ Partial Class Ijasa
         LabelStudi.Name = "LabelStudi"
         LabelStudi.Size = New Size(247, 54)
         LabelStudi.TabIndex = 9
-        LabelStudi.Text = "Program Studi"
         LabelStudi.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' LabelKelamin
@@ -160,7 +160,6 @@ Partial Class Ijasa
         LabelKelamin.Name = "LabelKelamin"
         LabelKelamin.Size = New Size(247, 54)
         LabelKelamin.TabIndex = 8
-        LabelKelamin.Text = "Jenis Kelamin"
         LabelKelamin.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' LabelNama
@@ -172,7 +171,6 @@ Partial Class Ijasa
         LabelNama.Name = "LabelNama"
         LabelNama.Size = New Size(247, 54)
         LabelNama.TabIndex = 7
-        LabelNama.Text = "Nama Lengkap"
         LabelNama.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' LabelNIM
@@ -184,7 +182,6 @@ Partial Class Ijasa
         LabelNIM.Name = "LabelNIM"
         LabelNIM.Size = New Size(247, 54)
         LabelNIM.TabIndex = 6
-        LabelNIM.Text = "NIM"
         LabelNIM.TextAlign = ContentAlignment.MiddleCenter
         ' 
         ' Label1
@@ -259,6 +256,19 @@ Partial Class Ijasa
         Label4.Text = "Program Studi"
         Label4.TextAlign = ContentAlignment.MiddleCenter
         ' 
+        ' PrintDocument1
+        ' 
+        ' 
+        ' PrintPreviewDialog1
+        ' 
+        PrintPreviewDialog1.AutoScrollMargin = New Size(0, 0)
+        PrintPreviewDialog1.AutoScrollMinSize = New Size(0, 0)
+        PrintPreviewDialog1.ClientSize = New Size(400, 300)
+        PrintPreviewDialog1.Enabled = True
+        PrintPreviewDialog1.Icon = CType(resources.GetObject("PrintPreviewDialog1.Icon"), Icon)
+        PrintPreviewDialog1.Name = "PrintPreviewDialog1"
+        PrintPreviewDialog1.Visible = False
+        ' 
         ' Ijasa
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -294,4 +304,6 @@ Partial Class Ijasa
     Friend WithEvents Label5 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
+    Friend WithEvents PrintDocument1 As Printing.PrintDocument
+    Friend WithEvents PrintPreviewDialog1 As PrintPreviewDialog
 End Class

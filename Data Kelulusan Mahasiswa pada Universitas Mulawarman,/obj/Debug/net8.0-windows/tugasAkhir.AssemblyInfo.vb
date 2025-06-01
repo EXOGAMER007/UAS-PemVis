@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("tugasAkhir"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ea459cbecad7344b62899f29fee5738ad9fc607"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("tugasAkhir"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("tugasAkhir"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
