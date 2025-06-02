@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property LihatPassword() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("LihatPassword", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property LogoMulawarman() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("LogoMulawarman", resourceCulture)
@@ -76,6 +86,16 @@ Namespace My.Resources
         Friend ReadOnly Property person_dummy() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("person-dummy", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property SembunyiPassword() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("SembunyiPassword", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

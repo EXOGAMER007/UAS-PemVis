@@ -151,7 +151,7 @@ Partial Class InputData
         ' 
         StudiBox.Dock = DockStyle.Fill
         StudiBox.FormattingEnabled = True
-        StudiBox.Items.AddRange(New Object() {"Semua Program Studi", "Informatika", "Sistem Informasi", "Teknik Sipil"})
+        StudiBox.Items.AddRange(New Object() {"Informatika", "Sistem Informasi", "Teknik Sipil"})
         StudiBox.Location = New Point(3, 193)
         StudiBox.Name = "StudiBox"
         StudiBox.Size = New Size(276, 28)

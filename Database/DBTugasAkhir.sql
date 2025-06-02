@@ -9,9 +9,12 @@ Create table TBMahasiswa (
 	Studi  varchar(50),
     Predikat varchar(50),
     IPK float(10),
+    Kelulusan varchar(45) default 'Tidak Lulus',
     gambar varchar(200)
 );
 
+SELECT COUNT(*) FROM TBMahasiswa;
+SELECT COUNT(DISTINCT Studi) FROM TBMahasiswa;
 select * from TBMahasiswa;
 
 INSERT INTO TBMahasiswa (NIM, Nama, Kelamin, Studi, Predikat, IPK, gambar)

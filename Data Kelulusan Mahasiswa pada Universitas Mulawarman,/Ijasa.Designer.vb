@@ -25,6 +25,11 @@ Partial Class Ijasa
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ijasa))
         DataGridView1 = New DataGridView()
         Panel1 = New Panel()
+        TableLayoutPanel2 = New TableLayoutPanel()
+        Label8 = New Label()
+        Label7 = New Label()
+        TxtCari = New TextBox()
+        StudiBox = New ComboBox()
         CetanBTN = New Button()
         PictureBox1 = New PictureBox()
         TableLayoutPanel1 = New TableLayoutPanel()
@@ -44,6 +49,7 @@ Partial Class Ijasa
         PrintPreviewDialog1 = New PrintPreviewDialog()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
+        TableLayoutPanel2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         TableLayoutPanel1.SuspendLayout()
         SuspendLayout()
@@ -51,22 +57,83 @@ Partial Class Ijasa
         ' DataGridView1
         ' 
         DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Location = New Point(0, 327)
+        DataGridView1.Location = New Point(0, 402)
         DataGridView1.Name = "DataGridView1"
         DataGridView1.RowHeadersWidth = 51
-        DataGridView1.Size = New Size(948, 389)
+        DataGridView1.Size = New Size(948, 314)
         DataGridView1.TabIndex = 18
         ' 
         ' Panel1
         ' 
         Panel1.BackColor = SystemColors.AppWorkspace
+        Panel1.Controls.Add(TableLayoutPanel2)
         Panel1.Controls.Add(CetanBTN)
         Panel1.Controls.Add(PictureBox1)
         Panel1.Controls.Add(TableLayoutPanel1)
         Panel1.Location = New Point(0, -3)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(948, 328)
+        Panel1.Size = New Size(948, 406)
         Panel1.TabIndex = 17
+        ' 
+        ' TableLayoutPanel2
+        ' 
+        TableLayoutPanel2.ColumnCount = 4
+        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
+        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
+        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
+        TableLayoutPanel2.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 25F))
+        TableLayoutPanel2.Controls.Add(Label8, 2, 0)
+        TableLayoutPanel2.Controls.Add(Label7, 0, 0)
+        TableLayoutPanel2.Controls.Add(TxtCari, 1, 0)
+        TableLayoutPanel2.Controls.Add(StudiBox, 3, 0)
+        TableLayoutPanel2.Location = New Point(3, 366)
+        TableLayoutPanel2.Name = "TableLayoutPanel2"
+        TableLayoutPanel2.RowCount = 1
+        TableLayoutPanel2.RowStyles.Add(New RowStyle(SizeType.Percent, 100F))
+        TableLayoutPanel2.Size = New Size(942, 40)
+        TableLayoutPanel2.TabIndex = 13
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Dock = DockStyle.Fill
+        Label8.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label8.Location = New Point(473, 0)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(229, 40)
+        Label8.TabIndex = 13
+        Label8.Text = "Filter Prodi"
+        Label8.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Dock = DockStyle.Fill
+        Label7.Font = New Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(3, 0)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(229, 40)
+        Label7.TabIndex = 12
+        Label7.Text = "Cari berdasarkan NIM"
+        Label7.TextAlign = ContentAlignment.TopCenter
+        ' 
+        ' TxtCari
+        ' 
+        TxtCari.Dock = DockStyle.Fill
+        TxtCari.Location = New Point(238, 3)
+        TxtCari.Name = "TxtCari"
+        TxtCari.Size = New Size(229, 27)
+        TxtCari.TabIndex = 12
+        ' 
+        ' StudiBox
+        ' 
+        StudiBox.Dock = DockStyle.Fill
+        StudiBox.FormattingEnabled = True
+        StudiBox.Items.AddRange(New Object() {"Semua", "Informatika", "Sistem Informasi", "Teknik Sipil"})
+        StudiBox.Location = New Point(708, 3)
+        StudiBox.Name = "StudiBox"
+        StudiBox.Size = New Size(231, 28)
+        StudiBox.TabIndex = 15
         ' 
         ' CetanBTN
         ' 
@@ -281,6 +348,8 @@ Partial Class Ijasa
         Text = "Ijasa"
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
+        TableLayoutPanel2.ResumeLayout(False)
+        TableLayoutPanel2.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         TableLayoutPanel1.ResumeLayout(False)
         TableLayoutPanel1.PerformLayout()
@@ -306,4 +375,9 @@ Partial Class Ijasa
     Friend WithEvents Label4 As Label
     Friend WithEvents PrintDocument1 As Printing.PrintDocument
     Friend WithEvents PrintPreviewDialog1 As PrintPreviewDialog
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents TxtCari As TextBox
+    Friend WithEvents StudiBox As ComboBox
 End Class

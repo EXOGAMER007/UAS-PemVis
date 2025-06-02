@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\infokelulusan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:infokelulusan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\inputdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -31,16 +23,32 @@
       "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:infokelulusan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:ijasa.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\infokelulusan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:infokelulusan.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\inputdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:inputdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\inputdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:inputdata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:grafik.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|c:\\users\\asus tuf\\documents\\kuliah\\smt 4\\pemrograman visual\\tugas akhir\\data kelulusan mahasiswa pada universitas mulawarman,\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{3F7DC025-DFFC-4821-9BF3-0083CF91B09D}|tugasAkhir.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,33 +58,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Ijasa.vb",
-              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
-              "RelativeDocumentMoniker": "Ijasa.vb",
-              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
-              "RelativeToolTip": "Ijasa.vb",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAE0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-29T15:26:43.331Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
               "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb",
               "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-28T10:27:06.031Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ijasa.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
+              "RelativeDocumentMoniker": "Ijasa.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb [Design]",
+              "RelativeToolTip": "Ijasa.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-01T16:01:15.237Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ijasa.vb",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
+              "RelativeDocumentMoniker": "Ijasa.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
+              "RelativeToolTip": "Ijasa.vb",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAwLcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-29T15:26:43.331Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -86,19 +106,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ijasa.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb",
-              "RelativeDocumentMoniker": "Ijasa.vb",
-              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Ijasa.vb [Design]",
-              "RelativeToolTip": "Ijasa.vb [Design]",
+              "DocumentIndex": 3,
+              "Title": "InputData.vb",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InputData.vb",
+              "RelativeDocumentMoniker": "InputData.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InputData.vb",
+              "RelativeToolTip": "InputData.vb",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAwwKcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-06-01T16:01:15.237Z",
+              "WhenOpened": "2025-05-29T13:31:05.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.vb",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Login.vb",
+              "RelativeDocumentMoniker": "Login.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Login.vb",
+              "RelativeToolTip": "Login.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-02T12:07:28.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Login.vb",
+              "RelativeDocumentMoniker": "Login.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Login.vb [Design]",
+              "RelativeToolTip": "Login.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-06-02T11:40:55.647Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "Grafik.vb",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Grafik.vb",
+              "RelativeDocumentMoniker": "Grafik.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Grafik.vb",
+              "RelativeToolTip": "Grafik.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-30T05:29:01.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb",
+              "RelativeDocumentMoniker": "Form1.vb",
+              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-05-27T08:33:25.72Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Grafik.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Grafik.vb",
               "RelativeDocumentMoniker": "Grafik.vb",
@@ -110,46 +180,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "InfoKelulusan.vb",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InfoKelulusan.vb",
               "RelativeDocumentMoniker": "InfoKelulusan.vb",
               "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InfoKelulusan.vb",
               "RelativeToolTip": "InfoKelulusan.vb",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-29T15:31:11.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Grafik.vb",
-              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Grafik.vb",
-              "RelativeDocumentMoniker": "Grafik.vb",
-              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Grafik.vb",
-              "RelativeToolTip": "Grafik.vb",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-30T05:29:01.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InputData.vb",
-              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InputData.vb",
-              "RelativeDocumentMoniker": "InputData.vb",
-              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InputData.vb",
-              "RelativeToolTip": "InputData.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-29T13:31:05.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "InfoKelulusan.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InfoKelulusan.vb",
               "RelativeDocumentMoniker": "InfoKelulusan.vb",
@@ -161,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "InputData.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\InputData.vb",
               "RelativeDocumentMoniker": "InputData.vb",
@@ -169,18 +213,6 @@
               "RelativeToolTip": "InputData.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-05-28T10:24:25.988Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Asus TUF\\Documents\\Kuliah\\SMT 4\\Pemrograman Visual\\tugas akhir\\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\\Form1.vb [Design]",
-              "RelativeToolTip": "Form1.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-05-27T08:33:25.72Z",
               "EditorCaption": " [Design]"
             }
           ]

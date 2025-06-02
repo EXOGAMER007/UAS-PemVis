@@ -45,23 +45,23 @@ Public Class Ijasa
     End Sub
 
     Private Sub PrintDocument1_PrintPage(sender As Object, e As Printing.PrintPageEventArgs) Handles PrintDocument1.PrintPage
-        ' Font definitions
+        ' Font 
         Dim fontJudul As New Font("Arial", 16, FontStyle.Bold)
         Dim fontSubJudul As New Font("Arial", 12, FontStyle.Bold)
         Dim fontNormal As New Font("Arial", 11)
         Dim fontSmall As New Font("Arial", 10)
 
-        ' Margins and starting position
+        ' margins
         Dim leftMargin As Integer = 50
         Dim centerMargin As Integer = CInt(e.PageBounds.Width / 2 - 200)
         Dim rightMargin As Integer = e.PageBounds.Width - 250
         Dim yPos As Integer = 100
 
-        ' Document information
+        ' Informasi tambahan
         Dim NoIjasa As String = "IJZ/" & DateTime.Now.ToString("yyyy") & "/" & LabelNIM.Text
         Dim tanggal As String = DateTime.Now.ToString("dd MMMM yyyy", New System.Globalization.CultureInfo("id-ID"))
 
-        ' Center alignment for header
+        ' header di tengah
         Dim headerSize As SizeF = e.Graphics.MeasureString("SURAT IJAZAH", fontJudul)
         e.Graphics.DrawString("SURAT IJAZAH", fontJudul, Brushes.Black, (e.PageBounds.Width - headerSize.Width) / 2, yPos)
         yPos += 40
@@ -70,11 +70,11 @@ Public Class Ijasa
         e.Graphics.DrawString("Nomor: " & NoIjasa, fontSubJudul, Brushes.Black, (e.PageBounds.Width - noSuratSize.Width) / 2, yPos)
         yPos += 80
 
-        ' Section 1: Introduction
+        ' Perkenalan
         e.Graphics.DrawString("Dengan ini menerangkan bahwa:", fontNormal, Brushes.Black, leftMargin, yPos)
         yPos += 40
 
-        ' Student data with aligned colons
+        ' Data Mahasiswa
         Dim labelWidth As Integer = 120
         Dim valueX As Integer = leftMargin + labelWidth
 
@@ -94,7 +94,7 @@ Public Class Ijasa
         e.Graphics.DrawString(": " & LabelKelamin.Text, fontNormal, Brushes.Black, valueX, yPos)
         yPos += 60
 
-        ' Section 2: Achievements
+        ' Penghargaan
         e.Graphics.DrawString("Telah menyelesaikan pendidikan dengan:", fontNormal, Brushes.Black, leftMargin, yPos)
         yPos += 40
 
@@ -106,7 +106,7 @@ Public Class Ijasa
         e.Graphics.DrawString(": " & LabelIPK.Text, fontNormal, Brushes.Black, valueX, yPos)
         yPos += 80
 
-        ' Section 3: Conclusion
+        ' Kesimpulan
         Dim conclusionText As String = "Dengan demikian berhak menyandang gelar sesuai dengan program studi yang telah ditempuh."
         Dim conclusionRect As New RectangleF(leftMargin, yPos, e.PageBounds.Width - 2 * leftMargin, 0)
         conclusionRect.Height = e.Graphics.MeasureString(conclusionText, fontNormal, conclusionRect.Size).Height
@@ -122,15 +122,15 @@ Public Class Ijasa
         e.Graphics.DrawString(tanggal, fontNormal, Brushes.Black, valueX, yPos)
         yPos += 80
 
-        ' Signature section
+        ' Tanda tangan
         Dim signatureX As Integer = e.PageBounds.Width - 250
         e.Graphics.DrawString("Rektor/Ketua,", fontNormal, Brushes.Black, signatureX, yPos)
         yPos += 40
 
-        ' Add space for signature
+        ' sedikit jarak ditanda tangan
         e.Graphics.DrawString("(__________________________)", fontNormal, Brushes.Black, signatureX - 70, yPos)
 
-        ' Footer (optional)
+        ' Footer
         yPos += 60
         e.Graphics.DrawString("Dokumen ini sah tanpa tanda tangan basah dan stempel", fontSmall, Brushes.Gray, centerMargin, yPos)
     End Sub
@@ -152,4 +152,56 @@ Public Class Ijasa
         PrintPreviewDialog1.ShowDialog()
     End Sub
 
+    Private Sub StudiBox_TextChanged(sender As Object, e As EventArgs) Handles StudiBox.TextChanged
+        If StudiBox.Text = "Semua" Then
+            TampilGrid()
+        Else
+            Try
+                DA = New MySqlDataAdapter("select * from TBMahasiswa where Studi like @Studi", CONN)
+                DA.SelectCommand.Parameters.AddWithValue("@Studi", "%" & StudiBox.Text & "%")
+                DS = New DataSet
+                DS.Clear()
+                DA.Fill(DS, "DataMahasiswa")
+                DataGridView1.DataSource = DS.Tables("DataMahasiswa")
+                DataGridView1.ReadOnly = True
+            Catch ex As Exception
+                MessageBox.Show("Data masih kosong")
+            End Try
+        End If
+    End Sub
+
+    Private Sub TxtCari_TextChanged(sender As Object, e As EventArgs) Handles TxtCari.TextChanged
+        If TxtCari.Text <> Nothing Then
+            Try
+                DA = New MySqlDataAdapter("select * from TBMahasiswa where NIM like @NIM", CONN)
+                DA.SelectCommand.Parameters.AddWithValue("@NIM", "%" & CInt(TxtCari.Text) & "%")
+                DS = New DataSet
+                DS.Clear()
+                DA.Fill(DS, "DataMahasiswa")
+                DataGridView1.DataSource = DS.Tables("DataMahasiswa")
+                DataGridView1.ReadOnly = True
+            Catch ex As Exception
+                'MessageBox.Show("Data masih kosong")
+            End Try
+        Else
+            TampilGrid()
+        End If
+    End Sub
+    'Private Sub TxtCari_TextChanged(sender As Object, e As EventArgs) Handles TxtCari.TextChanged
+    '    If TxtCari.Text <> Nothing Then
+    '        Try
+    '            DA = New MySqlDataAdapter("SELECT * FROM TBMahasiswa WHERE CAST(NIM AS CHAR) LIKE @NIM", CONN)
+    '            DA.SelectCommand.Parameters.AddWithValue("@NIM", "%" & TxtCari.Text & "%")
+    '            DS = New DataSet
+    '            DS.Clear()
+    '            DA.Fill(DS, "DataMahasiswa")
+    '            DataGridView1.DataSource = DS.Tables("DataMahasiswa")
+    '            DataGridView1.ReadOnly = True
+    '        Catch ex As Exception
+    '            MessageBox.Show("Data masih kosong")
+    '        End Try
+    '    Else
+    '        TampilGrid()
+    '    End If
+    'End Sub
 End Class

@@ -40,3 +40,4 @@ C:\Users\Asus TUF\Documents\Kuliah\SMT 4\Pemrograman Visual\tugas akhir\Data Kel
 C:\Users\Asus TUF\Documents\Kuliah\SMT 4\Pemrograman Visual\tugas akhir\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\obj\Debug\net8.0-windows\tugasAkhir.vbproj.Up2Date
 C:\Users\Asus TUF\Documents\Kuliah\SMT 4\Pemrograman Visual\tugas akhir\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\obj\Debug\net8.0-windows\Data_Kelulusan_Mahasiswa_pada_Universitas_Mulawarman_.Ijasa.resources
 C:\Users\Asus TUF\Documents\Kuliah\SMT 4\Pemrograman Visual\tugas akhir\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\obj\Debug\net8.0-windows\tugasAkhir.sourcelink.json
+C:\Users\Asus TUF\Documents\Kuliah\SMT 4\Pemrograman Visual\tugas akhir\Data Kelulusan Mahasiswa pada Universitas Mulawarman,\obj\Debug\net8.0-windows\Data_Kelulusan_Mahasiswa_pada_Universitas_Mulawarman_.Login.resources

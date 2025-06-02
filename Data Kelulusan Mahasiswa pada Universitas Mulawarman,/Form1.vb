@@ -10,11 +10,12 @@ Module Module1
     Public STR As String
     Public kodeNote As String
     Public LihatPassword As Boolean = False
+    Public login As Boolean = False
+    Public masuk As Boolean = True
     Sub koneksi()
         Try
             Dim STR As String =
             "server=localhost;userid=root;password=;database=TugasAkhir"
-            'Ganti nama database sesuaikan dengan nama database kalian
             CONN = New MySqlConnection(STR)
             If CONN.State = ConnectionState.Closed Then
                 CONN.Open()
@@ -29,18 +30,23 @@ Module Module1
             RD.Close()
         End If
     End Sub
+    Sub ShowFormInPanel(ByVal form As Form)
+        If login = False And masuk = False Then
+            MessageBox.Show("Silakan login terlebih dahulu.", "Peringatan",
+                            MessageBoxButtons.OK, MessageBoxIcon.Warning)
+        Else
+            Form1.Panel2.Controls.Clear()
+            form.TopLevel = False
+            form.FormBorderStyle = FormBorderStyle.None
+            form.Dock = DockStyle.Fill
+            Form1.Panel2.Controls.Add(form)
+            form.Show()
+        End If
+    End Sub
 End Module
 
 Public Class Form1
 
-    Sub ShowFormInPanel(ByVal form As Form)
-        Panel2.Controls.Clear()
-        form.TopLevel = False
-        form.FormBorderStyle = FormBorderStyle.None
-        form.Dock = DockStyle.Fill
-        Panel2.Controls.Add(form)
-        form.Show()
-    End Sub
 
     Private Sub InsertBTN_Click(sender As Object, e As EventArgs) Handles InsertBTN.Click
         ShowFormInPanel(InputData)
@@ -64,5 +70,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         ShowFormInPanel(InputData)
+        ShowFormInPanel(Login)
+        masuk = False
     End Sub
 End Class

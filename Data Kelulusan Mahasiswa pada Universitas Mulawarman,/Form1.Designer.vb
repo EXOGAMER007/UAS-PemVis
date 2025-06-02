@@ -93,6 +93,7 @@ Partial Class Form1
         ' ExitBTN
         ' 
         ExitBTN.Dock = DockStyle.Fill
+        ExitBTN.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         ExitBTN.Location = New Point(3, 435)
         ExitBTN.Name = "ExitBTN"
         ExitBTN.Size = New Size(371, 71)
@@ -103,6 +104,7 @@ Partial Class Form1
         ' IjasaBTN
         ' 
         IjasaBTN.Dock = DockStyle.Fill
+        IjasaBTN.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         IjasaBTN.Location = New Point(3, 219)
         IjasaBTN.Name = "IjasaBTN"
         IjasaBTN.Size = New Size(371, 66)
@@ -113,6 +115,7 @@ Partial Class Form1
         ' KelulusanBTN
         ' 
         KelulusanBTN.Dock = DockStyle.Fill
+        KelulusanBTN.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         KelulusanBTN.Location = New Point(3, 147)
         KelulusanBTN.Name = "KelulusanBTN"
         KelulusanBTN.Size = New Size(371, 66)
@@ -123,6 +126,7 @@ Partial Class Form1
         ' GrafikBTN
         ' 
         GrafikBTN.Dock = DockStyle.Fill
+        GrafikBTN.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         GrafikBTN.Location = New Point(3, 75)
         GrafikBTN.Name = "GrafikBTN"
         GrafikBTN.Size = New Size(371, 66)
@@ -133,6 +137,7 @@ Partial Class Form1
         ' InsertBTN
         ' 
         InsertBTN.Dock = DockStyle.Fill
+        InsertBTN.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         InsertBTN.Location = New Point(3, 3)
         InsertBTN.Name = "InsertBTN"
         InsertBTN.Size = New Size(371, 66)
