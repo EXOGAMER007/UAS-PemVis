@@ -52,16 +52,17 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Segoe UI", 16F)
-        Label1.Location = New Point(27, 151)
+        Label1.Location = New Point(26, 140)
         Label1.Name = "Label1"
-        Label1.Size = New Size(331, 37)
+        Label1.Size = New Size(331, 74)
         Label1.TabIndex = 1
-        Label1.Text = "Data Kelulusan Mahasiswa"
+        Label1.Text = "Data Kelulusan Mahasiswa" & vbCrLf & "Mulawarman"
+        Label1.TextAlign = ContentAlignment.TopCenter
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.LogoMulawarman
-        PictureBox1.Location = New Point(113, 11)
+        PictureBox1.Location = New Point(111, 0)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(152, 137)
         PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
